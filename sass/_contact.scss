@@ -1,0 +1,32 @@
+// CONTACT FORM
+#contact-form {
+  h1,
+  p {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px #ddd solid;
+
+    &:focus {
+      outline: none;
+      border-color: #f7c08a;
+    }
+  }
+
+  textarea {
+    height: 20rem;
+  }
+}

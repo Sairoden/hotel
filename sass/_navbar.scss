@@ -1,0 +1,36 @@
+// NAVBAR
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+
+  a {
+    color: #fff;
+  }
+
+  h1 {
+    float: left;
+    padding: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    float: right;
+  }
+
+  li {
+    float: left;
+
+    a {
+      display: block;
+      padding: 2rem;
+      text-align: center;
+
+      &:hover,
+      &.current {
+        background: #444;
+        color: #f7c08a;
+      }
+    }
+  }
+}

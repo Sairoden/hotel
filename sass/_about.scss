@@ -1,0 +1,21 @@
+// ABOUT INFO
+#about-info {
+  .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 70%;
+      border-radius: 50%;
+    }
+  }
+
+  .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+}

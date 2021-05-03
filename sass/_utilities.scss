@@ -1,0 +1,74 @@
+// UTILITY CLASS
+.container {
+  margin: auto;
+  max-width: 110rem;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+// FONT
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 2rem;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+// BUTTON
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #fff;
+  background: #333;
+  padding: 1.3rem 2rem;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: #f7c08a;
+    color: #333;
+  }
+
+  &-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+}
+
+// BACKGROUND
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+// CLEAR
+.clr {
+  clear: both;
+}
+
+// PADDING
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
